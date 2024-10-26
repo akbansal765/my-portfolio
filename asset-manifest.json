@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.da84dff8.css",
+    "main.css": "/my-portfolio/static/css/main.5627701a.css",
     "main.js": "/my-portfolio/static/js/main.6dbdc65a.js",
     "static/js/488.9561f9b8.chunk.js": "/my-portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/optic_app.png": "/my-portfolio/static/media/optic_app.e22bd7ad8a67a5d26624.png",
@@ -11,12 +11,12 @@
     "static/media/instagram.png": "/my-portfolio/static/media/instagram.776d16d0e9daa177afd5.png",
     "static/media/github.png": "/my-portfolio/static/media/github.f11021803f68852df283.png",
     "index.html": "/my-portfolio/index.html",
-    "main.da84dff8.css.map": "/my-portfolio/static/css/main.da84dff8.css.map",
+    "main.5627701a.css.map": "/my-portfolio/static/css/main.5627701a.css.map",
     "main.6dbdc65a.js.map": "/my-portfolio/static/js/main.6dbdc65a.js.map",
     "488.9561f9b8.chunk.js.map": "/my-portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da84dff8.css",
+    "static/css/main.5627701a.css",
     "static/js/main.6dbdc65a.js"
   ]
 }
