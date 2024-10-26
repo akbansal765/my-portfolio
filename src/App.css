@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* //////////////////////////////////  NAVBAR  /////////////////////////////////// */
+.navbar_component{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: solid rgba(126, 121, 121, 0.158) 1px;
+
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.836);
+}
+.navbar_box{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navbar_box button{
+  height: 3vw;
+  width: 8vw;
+  font-size: 1.3vw;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  transition: 0.3s;
+
+
+  &:hover{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: white;
+    border-radius: 1.5rem;
+    transition-delay: 0.1s;
+    cursor: pointer;
+  }
+}
+.social_links_box button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover{
+    background-color: transparent;
+    cursor:unset;
+  }
+
+  & a{
+    display: flex;
+    align-items: center;
+  }
+}
+.social_links_box button img{
+  height: 2.3vw;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+/* /////////////////////////////////////////  INTRODUCTION COMPONENT  ///////////////////////////////// */
+.introduction_component{
+  height: 90vh;
+  width: 100%;
+}
+.intro_content_box{
+  height: 85%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro_box{
+  height: 55%;
+  width: 45%;
+}
+.intro_box_1{
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro_box_2{
+  height: 75%;
+  width: 100%;
+}
+.intro_box_1 div{
+  height: 70%;
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  background-color: rgba(19, 19, 19, 0.925);
+  margin: 0 3% 0 3%;
+  overflow: hidden;
+}
+.intro_box_1 img{
+  height: 100%;
+}
+.intro_box_1 p{
+  font-size: 3.7vw;
+  font-weight: 400;
+  color: rgb(184, 182, 182);
+}
+.intro_box_2 p{
+  text-align: center;
+  font-size: 3.3vw;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.884);
+}
+.scroll_box{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+}
+.scroll_btn{
+  font-size: 1rem;
+  font-weight: 500;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  transition: 0.3s;
+
+  &:hover{
+    cursor: pointer;
+    color: rgb(107, 105, 105);
+  }
+
+  &:hover img{
+    transform: translateY(8px); /* Moves down by 5px */
+  }
+}
+.scroll_btn img{
+  height: 20%;
+  transition: 0.3s;
+}
+/* //////////////////////////////////////  PROJECT COMPONENT  ////////////////////////////////////////// */
+.project_component{
+  height: 40vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px rgb(66, 65, 65);
+  background-color: rgba(0, 0, 0, 0.918);
+  transition: 0.3s;
+
+  &:hover{
+    background-color: rgba(0, 0, 0, 0.89);
+  }
+}
+.project_box{
+  height: 33vw;
+  width: 93%;
+  display: flex;
+}
+.project_description_box, .project_image_box{
+  height: 100%;
+  width: 50%;
+}
+.project_image_box{
+  border-radius: 1.2rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  & img{
+    height: 100%;
+    width: 100%;
+  }
+}
+.project_btn{
+  width: auto;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: transparent;
+  border: solid rgba(255, 255, 255, 0.295) 1px;
+  padding: 5%;
+  font-size: 1.3vw;
+  font-weight: 500;
+  border-radius: 1.5rem;
+  transition: 0.2s;
+
+  &:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 4px rgba(255, 255, 0, 0.644);
+    
+  }
+}
+.project_btn img{
+  margin-left: 2%;
+  height: 1.5vw;
+}
+.project_description_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10%;
+}
+.project_title{
+  font-size: 4vw;
+  font-weight: 600;
+  color: rgb(128, 125, 125);
+}
+.project_description{
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.849);
+}
+/* ////////////////////////////////////////////  ABOUT COMPONENT  /////////////////////////////////////// */
+.about_component{
+  padding: 5%;
+  height: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: whitesmoke;
+  color: rgba(0, 0, 0, 0.849);
+
+  & p{
+    font-size: 2vw;
+    font-weight: 500;
+  }
+}
+.about_component p:first-child{
+  color: rgba(124, 123, 123, 0.466);
+  font-size: 4vw;
+}
+/* ////////////////////////////////////////////  CONTACT COMPONENT  /////////////////////////////////// */
+.contact_component{
+  height: 5vw;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.815);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  & button{
+    width: 20%;
+    padding: 0.7rem;
+    background-color: transparent;
+    color: white;
+    border: white solid 2px;
+    border-radius: 1.5rem;
+    font-weight: 500;
+    transition: 0.2s;
+
+    &:hover{
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.527);
+      border: none;
+      border: transparent solid 2px;
+    }
+  }
+}
+/* ////////////////////////////////////////   MEDIA QUERIES  ///////////////////////////////////// */
+@media (width <= 475px){
+  /* ////// NAVBAR  /////// */
+  .navbar_component {
+    height: 7vh;
+  }
+  .navbar_box button {
+    width: 11vw;
+    font-size: 2.2vw;
+
+    &:hover{
+      background-color: transparent;
+      color: black;
+    }
+  }
+  .social_links_box button img {
+    height: 3vw;
+  }
+  /* ///// INTRODUCTION ///// */
+  .introduction_component {
+    height: 93vh;
+  }
+  .intro_box {
+    height: 15%;
+    width: 49%;
+  }
+  /* ///// PROJECT ///// */
+  .project_component {
+    height: 85vw;
+  }
+  .project_box {
+    height: 77vw;
+    flex-direction: column-reverse;
+  }
+  .project_description_box{
+    width: 100%;
+    height: 50%;
+  }
+  .project_image_box{
+    width: 100%;
+    height: 90%;
+    margin-bottom: 5%;
+  }
+  .project_title {
+    font-size: 3vw;
+  }
+  .project_description {
+    font-size: 0.5rem;
+    font-weight: 500;
+  }
+  .project_btn {
+    padding: 2%;
+    font-size: 1vw;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    width: 20%;
+  }
+  .project_btn img{
+    margin-left: 5%;
+    height: 1vw;
+  }
+
+  /* ///// CONTACT ///// */
+  .contact_component{
+    height: 7vw;
+  
+    & button{
+      font-size: 0.3rem;
+      width: 25%;
+      padding: 0.2rem;
+      border: white solid 1px;
+      border-radius: 1rem;
+      font-weight: 400;
+  
+      &:hover{
+        border: transparent solid 1px;
+      }
+    }
+  }
+}
+
+@media(476px <= width <= 640px){
+  /* ////// NAVBAR  /////// */
+  .navbar_component {
+    height: 7vh;
+  }
+  .navbar_box button {
+    width: 11vw;
+    font-size: 2.2vw;
+
+    &:hover{
+      background-color: transparent;
+      color: black;
+    }
+  }
+  .social_links_box button img {
+    height: 3vw;
+  }
+  /* ///// INTRODUCTION ///// */
+  .introduction_component {
+    height: 93vh;
+  }
+  .intro_box {
+    height: 15%;
+    width: 49%;
+  }
+  /* ///// PROJECT ///// */
+  .project_component {
+    height: 85vw;
+  }
+  .project_box {
+    height: 77vw;
+    flex-direction: column-reverse;
+  }
+  .project_description_box{
+    width: 100%;
+    height: 50%;
+  }
+  .project_image_box{
+    width: 100%;
+    height: 90%;
+    margin-bottom: 5%;
+  }
+  .project_title {
+    font-size: 3vw;
+  }
+  .project_description {
+    font-size: 0.5rem;
+    font-weight: 500;
+  }
+  .project_btn {
+    padding: 2%;
+    font-size: 1vw;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    width: 20%;
+  }
+  .project_btn img{
+    margin-left: 5%;
+    height: 1vw;
+  }
+
+  /* ///// CONTACT ///// */
+  .contact_component{
+    height: 7vw;
+  
+    & button{
+      font-size: 0.3rem;
+      width: 25%;
+      padding: 0.4rem;
+      border: white solid 1px;
+      border-radius: 1rem;
+      font-weight: 400;
+  
+      &:hover{
+        border: transparent solid 1px;
+      }
+    }
+  }
+}
+@media(641px <= width <= 768px){
+    /* ////// NAVBAR  /////// */
+    .navbar_component {
+      height: 7vh;
+    }
+    .navbar_box button {
+      width: 11vw;
+      font-size: 1.8vw;
+    }
+    .social_links_box button img {
+      height: 3vw;
+    }
+    /* /// INTRODUCTION /// */
+    .introduction_component {
+      height: 93vh;
+    }
+    .intro_box {
+      height: 18%;
+      width: 49%;
+    }
+    /* ///// PROJECT /////// */
+    .project_title {
+      font-size: 3vw;
+    }
+    .project_description {
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+    .project_btn {
+      padding: 4%;
+      font-size: 1vw;
+      font-weight: 500;
+      border-radius: 0.7rem;
+    }
+    /* ////// CONTACT //////// */
+    .contact_component{
+      height: 7vw;
+    
+      & button{
+        font-size: 0.5rem;
+        width: 25%;
+        padding: 0.5rem;
+        border: white solid 1px;
+        border-radius: 1rem;
+        font-weight: 400;
+    
+        &:hover{
+          border: transparent solid 1px;
+        }
+      }
+    }
+}
+@media(769px <= width <= 1024px){
+    /* ////// NAVBAR  /////// */
+    .navbar_component {
+      height: 7vh;
+    }
+    .navbar_box button {
+      width: 11vw;
+      font-size: 1.8vw;
+    }
+    .social_links_box button img {
+      height: 3vw;
+    }
+    /* /// INTRODUCTION /// */
+    .introduction_component {
+      height: 93vh;
+    }
+    .intro_box {
+      height: 18%;
+      width: 49%;
+    }
+    /* ///// PROJECT /////// */
+    .project_title {
+      font-size: 3vw;
+    }
+    .project_description {
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+    .project_btn {
+      padding: 4%;
+      font-size: 1vw;
+      font-weight: 500;
+      border-radius: 0.7rem;
+    }
+    /* ////// CONTACT //////// */
+    .contact_component{
+      height: 7vw;
+    
+      & button{
+        font-size: 0.5rem;
+        width: 25%;
+        padding: 0.5rem;
+        border: white solid 1px;
+        border-radius: 1rem;
+        font-weight: 400;
+    
+        &:hover{
+          border: transparent solid 1px;
+        }
+      }
+    }
+}
+@media (max-height: 450px) and (orientation: landscape){
+  /* ////// NAVBAR  /////// */
+  .navbar_component {
+    height: 10vh;
+  }
+  .navbar_box button {
+    font-size: 1.8vw;
+  }
+  .social_links_box button img {
+    height: 2.5vw;
+  }
+    /* /// INTRODUCTION /// */
+    .introduction_component {
+      height: 90vh;
+    }
+    .intro_box {
+      height: 45%;
+      width: 49%;
+    }
+    .scroll_btn {
+      font-size: 0.7rem;
+    }
+    /* //// CONTACT //// */
+    .contact_component button{
+      padding: 0.3rem;
+    }
+}
