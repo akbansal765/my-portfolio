@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.da84dff8.css",
+    "main.js": "/my-portfolio/static/js/main.6dbdc65a.js",
+    "static/js/488.9561f9b8.chunk.js": "/my-portfolio/static/js/488.9561f9b8.chunk.js",
+    "static/media/optic_app.png": "/my-portfolio/static/media/optic_app.e22bd7ad8a67a5d26624.png",
+    "static/media/hangman.png": "/my-portfolio/static/media/hangman.cd74948ef97613650dff.png",
+    "static/media/Akash2.jpg": "/my-portfolio/static/media/Akash2.89b718f53bb230b10430.jpg",
+    "static/media/expense_tracker.png": "/my-portfolio/static/media/expense_tracker.efb4259c738792b08532.png",
+    "static/media/crypto_watcher.png": "/my-portfolio/static/media/crypto_watcher.2989c6e855cd9fac38c9.png",
+    "static/media/instagram.png": "/my-portfolio/static/media/instagram.776d16d0e9daa177afd5.png",
+    "static/media/github.png": "/my-portfolio/static/media/github.f11021803f68852df283.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.da84dff8.css.map": "/my-portfolio/static/css/main.da84dff8.css.map",
+    "main.6dbdc65a.js.map": "/my-portfolio/static/js/main.6dbdc65a.js.map",
+    "488.9561f9b8.chunk.js.map": "/my-portfolio/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da84dff8.css",
+    "static/js/main.6dbdc65a.js"
+  ]
+}
